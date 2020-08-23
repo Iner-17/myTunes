@@ -51,19 +51,32 @@ nav {
 
 /* the main landing page */
 .landing-page {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 100%;
+}
+
+.landing-page::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
   background-image: url(../images/pic1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  opacity: 0.93;
   min-height: 100%;
 }
 
 .landing-page h1 {
+  position: relative;
   font-size: 5em;
   line-height: 2em;
   letter-spacing: 3px;
@@ -71,6 +84,7 @@ nav {
 }
 
 .landing-page h3 {
+  position: relative;
   font-size: 2em;
   letter-spacing: 3px;
   margin-bottom: 20px;
@@ -78,6 +92,7 @@ nav {
 }
 
 .landing-page p {
+  position: relative;
   font-size: 20px;
   line-height: 1em;
   font-weight: 800;
@@ -91,6 +106,7 @@ nav {
 
 .music-page {
   position: relative;
+  z-index: 1;
   height: 140vh;
   background: #444;
 }
@@ -129,11 +145,25 @@ nav {
 }
 
 .music-page .music-pic {
+  position: relative;
   margin: 0 auto;
   width: 800px;
   height: 500px;
   background-image: url(../images/pic2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  box-shadow: -15px 15px 8px rgba(0, 0, 0, 0.5);
   background-position: center;
+}
+
+.music-page .music-pic-border {
+  position: absolute;
+  top: 550px;
+  right: 0px;
+  bottom: 0px;
+  left: 310px;
+  z-index: -1;
+  height: 500px;
+  width: 800px;
+  border: 10px solid rgb(0, 132, 255);
 }
