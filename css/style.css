@@ -94,10 +94,11 @@ nav {
 .landing-page p {
   position: relative;
   font-size: 20px;
+  letter-spacing: 2px;
   line-height: 1em;
   font-weight: 800;
   letter-spacing: 3px;
-  padding: 0 100px;
+  padding: 0 140px;
   text-align: center;
   text-shadow: 3px 3px 1px black;
 }
@@ -124,7 +125,7 @@ nav {
 .music-page p {
   text-align: center;
   font-size: 24px;
-  padding: 40px 100px;
+  padding: 40px 140px;
 }
 
 .music-page li {
@@ -136,7 +137,7 @@ nav {
   text-decoration: none;
   color: white;
   background: rgb(173, 1, 1);
-  padding: 10px 30px;
+  padding: 15px 35px;
   transition: 0.3s;
 }
 
@@ -166,4 +167,58 @@ nav {
   height: 500px;
   width: 800px;
   border: 10px solid rgb(0, 132, 255);
+}
+
+/* Video Page */
+.video-page {
+  position: relative;
+  z-index: 1;
+  height: 140vh;
+  background: #555;
+}
+
+.video-page h1 {
+  text-align: center;
+  font-size: 3em;
+  padding: 7vh 0 5vh 0;
+}
+
+.video-page h2 {
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.video-page p {
+  text-align: center;
+  font-size: 24px;
+  padding: 40px 140px;
+}
+
+.video-page li {
+  text-align: center;
+  list-style: none;
+}
+
+.video-page a {
+  text-decoration: none;
+  color: white;
+  background: rgb(18, 1, 172);
+  padding: 10px 35px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.video-page a:hover {
+  background: rgb(5, 39, 235);
+}
+
+.video-pic {
+  position: relative;
+  margin: 40px auto;
+  width: 1000px;
+  height: 600px;
+  background-image: url(../images/pic3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
