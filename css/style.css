@@ -232,3 +232,122 @@ footer {
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    width: 60%;
+  }
+  .landing-page h3 {
+    text-align: center;
+  }
+  .landing-page p {
+    padding: 10px 20px;
+  }
+
+  .music-page p {
+    padding: 10px 20px;
+  }
+
+  .music-page a {
+    padding: 5px 15px;
+  }
+  .music-page .music-pic {
+    margin: 20px auto;
+    width: 500px;
+    height: 500px;
+  }
+
+  .music-page .music-pic-border {
+    display: none;
+  }
+
+  .video-page {
+    height: 100vh;
+  }
+
+  .video-page p {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+
+  .video-page li {
+    margin-top: 20px;
+  }
+
+  .video-pic {
+    margin: 40px auto;
+    width: 700px;
+    height: 380px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav-links {
+    width: 80%;
+  }
+
+  .landing-page h1 {
+    font-size: 3em;
+  }
+
+  .landing-page h3 {
+    font-size: 1.5em;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .landing-page p {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 20px;
+  }
+
+  .music-page .music-text-1 {
+    font-size: 1.8em;
+  }
+
+  .music-page .music-text-2 {
+    font-size: 1.8em;
+  }
+
+  .music-page p {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 10px;
+  }
+
+  .music-page a {
+    padding: 5px 15px;
+  }
+
+  .music-page .music-pic {
+    margin: 20px auto;
+    width: 300px;
+    height: 500px;
+  }
+
+  .music-page .music-pic-border {
+    display: none;
+  }
+
+  .video-page {
+    height: 120vh;
+  }
+
+  .video-page p {
+    padding: 10px 20px;
+  }
+
+  .video-page a {
+    padding: 5px 15px;
+    font-size: 20px;
+    transition: 0.3s;
+    margin-top: 20px;
+  }
+
+  .video-pic {
+    margin: 40px auto;
+    width: 350px;
+    height: 380px;
+  }
+}
