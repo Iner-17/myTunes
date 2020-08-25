@@ -154,7 +154,7 @@ nav {
 .music-page .music-pic img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .music-page .music-pic-border {
@@ -213,7 +213,7 @@ nav {
 }
 
 .video-pic {
-  margin: 40px auto;
+  margin: 20px auto;
   width: 1000px;
   height: 600px;
 }
@@ -221,11 +221,12 @@ nav {
 .video-pic img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 /* Footer */
 footer {
+  position: relative;
   width: 100%;
   height: 50px;
   background-color: #222;
@@ -303,6 +304,10 @@ footer {
     padding: 10px 20px;
   }
 
+  .music-page {
+    height: 110vh;
+  }
+
   .music-page .music-text-1 {
     font-size: 1.8em;
   }
@@ -323,8 +328,8 @@ footer {
 
   .music-page .music-pic {
     margin: 20px auto;
-    width: 300px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
   }
 
   .music-page .music-pic-border {
@@ -347,8 +352,8 @@ footer {
   }
 
   .video-pic {
-    margin: 50px auto;
+    margin: 10px auto;
     width: 350px;
-    height: 380px;
+    height: 350px;
   }
 }
