@@ -153,7 +153,8 @@ nav {
 
 .music-page .music-pic img {
   width: 100%;
-  height: 500px;
+  height: 100%;
+  object-fit: cover;
 }
 
 .music-page .music-pic-border {
@@ -215,10 +216,12 @@ nav {
   margin: 40px auto;
   width: 1000px;
   height: 600px;
-  background-image: url(../images/pic3.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+}
+
+.video-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Footer */
@@ -344,7 +347,7 @@ footer {
   }
 
   .video-pic {
-    margin: 40px auto;
+    margin: 50px auto;
     width: 350px;
     height: 380px;
   }
