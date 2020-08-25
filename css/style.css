@@ -145,7 +145,6 @@ nav {
 }
 
 .music-page .music-pic {
-  position: relative;
   margin: 0 auto;
   width: 800px;
   height: 500px;
@@ -212,7 +211,6 @@ nav {
 }
 
 .video-pic {
-  position: relative;
   margin: 40px auto;
   width: 1000px;
   height: 600px;
