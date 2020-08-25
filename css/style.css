@@ -150,16 +150,10 @@ nav {
   width: 800px;
   height: 500px;
   background-image: url(../images/pic2.jpg);
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-  box-shadow: -15px 15px 8px rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
   background-position: center;
+  box-shadow: -15px 15px 8px rgba(0, 0, 0, 0.5);
 }
 
 .music-page .music-pic-border {
